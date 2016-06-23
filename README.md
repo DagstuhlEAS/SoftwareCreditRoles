@@ -8,7 +8,7 @@ https://w3id.org/SoftwareCredit
   * Dan thinks not
 	
 * DOAP ontology: https://github.com/edumbill/doap/blob/master/schema/doap.rdf recognizes some of the terms that are necessary to describe software, but lacks some terms like contributors in mailing list, code packager, etc. We extend on this ontology to fill the missing roles and 
-  * There's also the thing that Matt mentioned
+  * There's also [SPDX](http://spdx.org), which might be being used going forward by PyPI instead of DOAP
 
 * PAV ontology: http://purl.org/pav/ Focused more on data rather than software, but some concepts apply.
 
