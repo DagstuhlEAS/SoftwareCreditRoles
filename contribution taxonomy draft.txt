@@ -1,0 +1,59 @@
+Taxonomy for providing software credit. Rob van Niewpooort, Daniel garijo, Jurgen Viju, Matt Turk
+
+
+creator: The person/group/organization responsible for the initial release of the code.
+	
+contributor: Anyone who made a material change to the software or its supporting materials
+	developer: Made changes to the software itself.
+		core developer: active developer who is essential to the progress of the project
+		
+		maintainer: maintainers keep the software alive. Learns about existing code and changes to adapt new requirements. For example, refactoring.
+		
+			-->remove this refactor: Type of code reviewer. Type of developer. Someone that provides equivalent functionality to the code in order to improve its readibility
+		
+	documenter: Tutorials and documentation of the code.
+		documentationCotributor: someone who writes manuals, tutorials, presentation and other learning materials.
+			technicalDocumentationProvider: someone who documents the design decisions and API documentation.
+			translator:
+		
+		
+	CommunityContributor: someone who contributes by answering questions, help or advice in the mailing list, stack overflow, forums, etc.
+	
+	requirement elicitator: somebody who collects the needs of the software.
+	
+	designer: Someone who makes and documents decissions to address the tradeoffs caused by the requirements. 
+		softwareArchitect: key design decissions to satisfy the requirements
+		humanComputerInteraction: User experience designer
+			Internationalization:
+		website designer: someone who contributed to the website
+		artist: Logo, design , etc.
+		
+	IdeaContributor: people who gave ideas (brain storming, etc.): People who contributed with suggestions, ideas, etc. 
+	
+	code reviewer: Someone that provided guidance, suggestions or feedback on code that was incorporated into the project. They do not contribute to the code, otherwise they become developers. E.g., people that provide feedback on patches.
+	
+	packager: if someone who took the responsibility of bundling or distributing the software to deploy it.
+	
+	bug fixer: contributed a couple of lines
+	
+	issue reporter: reports about the bugs. These people also synthesize them as a report.
+	
+	infrastructure supporter: continuous integration and deployment expert. It's an enabler.
+	
+	marketingAndSales
+	
+	SystemsAndNetworkEngineering: operator of the running software. For example, system administration roles.
+	
+	ModelDrienSoftwareEngineeringExpert: somebody who formlly models part of the reqs, design or implementation in order to simulate, verify or test the software.
+	
+tester: 	
+	unit tester
+	acceptiation testing
+	integration testing 
+	regression testing 
+
+funder: The peron or organization who provided the funds for affiliated meetings and materials.
+
+investigator: Person responsible for writing the grant proposal
+
+
