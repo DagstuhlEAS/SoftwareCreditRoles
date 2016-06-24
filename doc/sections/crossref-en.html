@@ -347,6 +347,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#acceptationTester</p>
+      <div class="comment">
+         <span class="markdown">Person in charge of doing the accept tests.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -374,6 +377,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#artist</p>
+      <div class="comment">
+         <span class="markdown">Anyone contributing to the logo or images in the software.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -401,11 +407,14 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#bugFixer</p>
+      <div class="comment">
+         <span class="markdown">Person who fixed a buf in the code.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="#contributor" title="https://w3id.org/softwareCredit#contributor">contributor</a>
+               <a href="#developer" title="https://w3id.org/softwareCredit#developer">developer</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
@@ -428,6 +437,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#codeReviewer</p>
+      <div class="comment">
+         <span class="markdown">Someone who provided guidance, suggestions or feedback on code that was incorporated into the project. They do not contribute to the code, otherwise they become developers. E.g., people that provide feedback on patches</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -456,7 +468,7 @@ This section provides details for each class and property defined by softwareCre
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#communityContributor</p>
       <div class="comment">
-         <span class="markdown">rename</span>
+         <span class="markdown">Someone who contributes by answering questions, help or advice in the mailing list, stack overflow, forums, etc.</span>
       </div>
       <div class="description">
          <dl>
@@ -485,6 +497,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#contributor</p>
+      <div class="comment">
+         <span class="markdown">Anyone who made a material change to the software or its supporting materials</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -493,8 +508,7 @@ This section provides details for each class and property defined by softwareCre
             </dd>
             <dt>has sub-properties</dt>
             <dd>
-               <a href="#bugFixer" title="https://w3id.org/softwareCredit#bugFixer">bug fixer</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#codeReviewer" title="https://w3id.org/softwareCredit#codeReviewer">code reviewer</a>
+               <a href="#codeReviewer" title="https://w3id.org/softwareCredit#codeReviewer">code reviewer</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#communityContributor"
                   title="https://w3id.org/softwareCredit#communityContributor">community contributor</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#designer" title="https://w3id.org/softwareCredit#designer">designer</a>
@@ -535,6 +549,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#coreDeveloper</p>
+      <div class="comment">
+         <span class="markdown">active developer who is essential to the progress of the project</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -585,6 +602,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#designer</p>
+      <div class="comment">
+         <span class="markdown">Someone who makes and documents decissions to address the tradeoffs caused by the requirements.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -622,6 +642,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#developer</p>
+      <div class="comment">
+         <span class="markdown">Someone who made changes to the software itself</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -631,7 +654,8 @@ This section provides details for each class and property defined by softwareCre
             </dd>
             <dt>has sub-properties</dt>
             <dd>
-               <a href="#coreDeveloper" title="https://w3id.org/softwareCredit#coreDeveloper">core developer</a>
+               <a href="#bugFixer" title="https://w3id.org/softwareCredit#bugFixer">bug fixer</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#coreDeveloper" title="https://w3id.org/softwareCredit#coreDeveloper">core developer</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#maintainer" title="https://w3id.org/softwareCredit#maintainer">maintainer</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
@@ -655,6 +679,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#documenter</p>
+      <div class="comment">
+         <span class="markdown">Contributors to the tutorials and documentation of the code</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -714,6 +741,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#humanComputerInteractionDesigner</p>
+      <div class="comment">
+         <span class="markdown">Someone in charge of the user experience</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -747,6 +777,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#ideaContributor</p>
+      <div class="comment">
+         <span class="markdown">Person who participated in a brain storming, session, ore who contributed with suggestions, ideas, etc. </span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -774,6 +807,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#infrastructureSupporter</p>
+      <div class="comment">
+         <span class="markdown">Person that enables and supports task like continuous integration and deployment expert.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -801,6 +837,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#integrationTester</p>
+      <div class="comment">
+         <span class="markdown">Person in charge of the integration tests.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -828,6 +867,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#internationalization</p>
+      <div class="comment">
+         <span class="markdown">Person in charge of adapting the user interface to other cultures and languages. This task is different from translation</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -881,6 +923,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#issueReporter</p>
+      <div class="comment">
+         <span class="markdown">Person who detected and error and issued a ticket in the tracking system for it to be solved.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -908,6 +953,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#maintainer</p>
+      <div class="comment">
+         <span class="markdown">Person in charge of keeping the software alive. Maintainers learn about existing code and changes to adapt new requirements. For example, refactoring.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -935,6 +983,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#marketingAndSales</p>
+      <div class="comment">
+         <span class="markdown">Person in charge of promoting the software to be sold or distributed.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -962,6 +1013,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#ModelDrivenSoftwareEngineeringExpert</p>
+      <div class="comment">
+         <span class="markdown">Somebody who formally models part of the requirements, design or implementation in order to simulate or verify the software.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -989,6 +1043,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#packager</p>
+      <div class="comment">
+         <span class="markdown">Someone who took the responsibility of bundling or distributing the software to deploy it.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1016,6 +1073,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#regressionTester</p>
+      <div class="comment">
+         <span class="markdown">Person in charge of the regression tests.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1043,6 +1103,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#requirementElicitator</p>
+      <div class="comment">
+         <span class="markdown">Somebody who collects the needs of the software.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1070,6 +1133,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#softwareArchitect</p>
+      <div class="comment">
+         <span class="markdown">Someone who is in charge of the key design decissions to satisfy the requirements</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1097,6 +1163,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#SystemsAndNetworkEngineer</p>
+      <div class="comment">
+         <span class="markdown">Operator of the running software. For example, system administration roles.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1124,6 +1193,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#technicalDocumenter</p>
+      <div class="comment">
+         <span class="markdown">Someone who documents the design decisions and API documentation</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1185,6 +1257,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#translator</p>
+      <div class="comment">
+         <span class="markdown">Person that was responsible (or collaborated) in translating the documentaroin to another language </span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1212,6 +1287,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#unitTester</p>
+      <div class="comment">
+         <span class="markdown">Person in charge of doing unit tests.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1239,6 +1317,9 @@ This section provides details for each class and property defined by softwareCre
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/softwareCredit#websiteDesigner</p>
+      <div class="comment">
+         <span class="markdown">Someone who contributed to the website of the project.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>

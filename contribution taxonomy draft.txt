@@ -9,6 +9,8 @@ contributor: Anyone who made a material change to the software or its supporting
 		
 		maintainer: maintainers keep the software alive. Learns about existing code and changes to adapt new requirements. For example, refactoring.
 		
+		bug fixer: contributed a couple of lines
+		
 			-->remove this refactor: Type of code reviewer. Type of developer. Someone that provides equivalent functionality to the code in order to improve its readibility
 		
 	documenter: Tutorials and documentation of the code.
@@ -34,7 +36,7 @@ contributor: Anyone who made a material change to the software or its supporting
 	
 	packager: if someone who took the responsibility of bundling or distributing the software to deploy it.
 	
-	bug fixer: contributed a couple of lines
+	
 	
 	issue reporter: reports about the bugs. These people also synthesize them as a report.
 	
