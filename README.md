@@ -1,6 +1,8 @@
 # SoftwareCreditRoles
 The goal of this vocabulary is to create a taxonomy based on existing vocabularies to represent credit of different contributors of a software project.
-https://w3id.org/SoftwareCredit
+https://w3id.org/softwareCredit
+
+Current status: we are aligning the software credit ontology to DOAP and schema.org. We will soon list the crosswalk to codemeta terms.
 
 # Relevant efforts that tackle credit. Please feel free suggest and discuss efforts and initiatives.
 
